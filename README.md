@@ -16,7 +16,9 @@ files = glob('spid*/*_data.txt')
 
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
-## Skill #2 - Data Visualization  
-[Creating a boxplot from neural data: Flanker test](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
+## Skill #2 - Data Visualization for Neural Data 
+[](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
+
+Here is an example of code I wrote to [represent reaction time data for a Flanker Test](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
 
 <img src = "https://user-images.githubusercontent.com/73716282/97788149-79a70c80-1b95-11eb-93e7-eda51fdff741.png" width = 700>
