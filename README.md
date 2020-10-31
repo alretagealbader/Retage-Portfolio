@@ -8,12 +8,15 @@ Hi and welcome to my portfolio! I'm Retage - a 4th year Medical Sciences student
 Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
 
-## A loop to read data files
+## Skill #1 - Reading in data Files: 
+A loop to read data files
 Read in data:
 
 files = glob('spid*/*_data.txt')
 
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
-##[Creating a boxplot from neural data: Flanker test](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
+## Skill #2 - Data Visualization  
+[Creating a boxplot from neural data: Flanker test](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
 
+<img src = "https://user-images.githubusercontent.com/73716282/97788149-79a70c80-1b95-11eb-93e7-eda51fdff741.png" width = 700>
