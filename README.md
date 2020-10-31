@@ -61,12 +61,6 @@ In this example, I used data from the [World Happiness Report from Kaggle](https
 
 I joined and presented happiness scores from the happiest and saddest countries into the following barpolot.
 
-[](Barplot.md)
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
 Here, I join the happy and sad countries together:
 
 ```python
