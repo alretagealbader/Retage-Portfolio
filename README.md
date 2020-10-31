@@ -78,6 +78,7 @@ plt.show()
 
 <img width="549" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
+## Skill #4 - Preliminary Statistical Analysis:
 
 
 
