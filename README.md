@@ -8,10 +8,11 @@ Hi and welcome to my portfolio! I'm Retage - a 4th year Medical Sciences student
 Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
 
-# A loop to read data files
+## A loop to read data files
 Read in data:
 
 files = glob('spid*/*_data.txt')
 
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
+## A loop to read data files
