@@ -93,7 +93,7 @@ plt.xticks(
 plt.title('Happiness Score')
 plt.show()
 ```
-<img width="400" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
+<img width="300" lenght="300" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
 ## Skill #5 - Statistical Analysis (Correlations):
 The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Healthy Life Expectancy and Happiness scores:
