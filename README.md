@@ -9,10 +9,10 @@ Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
 
 ## Skill #1 - Reading in data Files: 
-A loop to read data files
+A loop to read data files:
 
 ```python
-files = glob('spid*/*_data.txt')
+files = glob('subject*/*_data.txt')
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 ```
 
