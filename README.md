@@ -67,7 +67,7 @@ Here, I join the happy and sad countries together:
 # Reading in the data
 df = pd.read_csv('happy2019.csv')
 # Subselecting the happiest and saddest countries
-data = (df.head(5)).append((df.tail(5)), ignore_index = True)
+data = df.head(5).append(df.tail(5), ignore_index = True)
 ```
 
 Here, I made a few modifications to the barplot so countries' names are clearly legible. 
