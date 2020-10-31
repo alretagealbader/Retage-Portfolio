@@ -38,7 +38,19 @@ plt.show()
 ```
 <img width="721" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
 
-## Skill #3 - Data Visualization - Barplot 
+## Skill 5 - Comparing Reaction Times in Flankers
+The following codes for a strip plot that visually represents the clustering of reaction times (ms) in different flanker conditions:
+
+```python
+sns.stripplot(x=df['flankers'], y=df['rt'], data= df, size=3, jitter=True)
+plt.title('Reaction Times in Flankers Conditions')
+plt.ylabel('Reaction Times')
+plt.xlabel('Flanker Conditions')
+plt.show()
+```
+
+
+## Skill #4 - Data Visualization - Barplot 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
 
 I joined and presented happiness scores from the happiest and saddest countries into the following barpolot.
@@ -78,7 +90,27 @@ plt.show()
 
 <img width="549" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
-## Skill #4 - Preliminary Statistical Analysis:
+## Skill #5 - Statistical Analysis (Correlations):
+The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Healthy Life Expectancy and Happiness scores:
+```python
+x = all['Healthy life expectancy']
+y = all['Score']
 
+Pearson = scipy.stats.pearsonr(x, y)    # Pearson's r
+Spearman = scipy.stats.spearmanr(x, y)   # Spearman's rho
+Kendall = scipy.stats.kendalltau(x, y)  # Kendall's tau
 
+# For example:
+print('The Spearmans rho correlation between countries happiness scores and healthy life expectancy is: ' + str(Spearman[0].round(2)) + ' at ' + str(Spearman[1].round(4)) +' significance')
+>>> The Spearmans rho correlation between countries happiness scores and healthy life expectancy is: 0.79 at 0.0061 significance
 
+```
+The following code helps visually represent the relationship between healthy life expectancy and happiness score in all 156 countries in the dataset with a scatter plot:
+
+```python
+scatter = matplotlib.pyplot.scatter(df['Healthy life expectancy'], df['Score'])
+plt.title('Healthy Life Expectancy and Happiness Score')
+plt.ylabel('Happiness Score')
+plt.xlabel('Healthy Life Expectancy')
+plt.show()
+```
