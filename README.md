@@ -15,4 +15,4 @@ files = glob('spid*/*_data.txt')
 
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
-## A loop to read data files
+## Creating a boxplot from neural data: Flanker test
