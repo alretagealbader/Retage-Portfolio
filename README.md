@@ -37,7 +37,7 @@ plt.xlabel('Flanker Conditions')
 plt.ylabel('Log RT')
 plt.show() 
 ```
-<img width="700" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
+<img width="550" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
 
 ## Skill 3 - Comparing Reaction Times in Flankers
 The following codes for a strip plot that visually represents the clustering of reaction times (ms) in different flanker conditions:
@@ -49,7 +49,7 @@ plt.ylabel('Reaction Times')
 plt.xlabel('Flanker Conditions')
 plt.show()
 ```
-<img width="700" alt="Striplots" src="https://user-images.githubusercontent.com/73716282/97791468-833e6d80-1bb1-11eb-9736-d691bb290d85.png">
+<img width="500" alt="Striplots" src="https://user-images.githubusercontent.com/73716282/97791468-833e6d80-1bb1-11eb-9736-d691bb290d85.png">
 
 ## Skill #4 - Data Visualization - Barplot 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
@@ -88,8 +88,7 @@ plt.xticks(
 plt.title('Happiness Score')
 plt.show()
 ```
-
-<img width="500" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
+<img width="400" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
 ## Skill #5 - Statistical Analysis (Correlations):
 The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Healthy Life Expectancy and Happiness scores:
@@ -117,4 +116,4 @@ plt.ylabel('Happiness Score')
 plt.xlabel('Healthy Life Expectancy')
 plt.show()
 ```
-<img width="600" alt="scatter" src="https://user-images.githubusercontent.com/73716282/97791505-e16b5080-1bb1-11eb-8d31-6c706ac67085.png">
+<img width="500" alt="scatter" src="https://user-images.githubusercontent.com/73716282/97791505-e16b5080-1bb1-11eb-8d31-6c706ac67085.png">
