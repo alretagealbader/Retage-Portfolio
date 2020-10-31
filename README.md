@@ -31,7 +31,8 @@ flanker_conditions_rt = df.groupby(['flankers'])[['rt']]
 logrt_flanker.plot(kind='box')
 
 # modifying the boxplot 
-plt.title('Reaction Times in Flanker-Congruent and Flanker-Incongruent Conditions ')
+plt.title('Reaction Times in Flanker-Congruent and 
+Flanker-Incongruent Conditions ')
 plt.xlabel('Flanker Conditions')
 plt.ylabel('Log RT')
 plt.show() 
@@ -101,8 +102,10 @@ Spearman = scipy.stats.spearmanr(x, y)   # Spearman's rho
 Kendall = scipy.stats.kendalltau(x, y)  # Kendall's tau
 
 # For example:
-print('The Spearmans rho correlation between countries happiness scores and healthy life expectancy is: ' + str(Spearman[0].round(2)) + ' at ' + str(Spearman[1].round(4)) +' significance')
->>> The Spearmans rho correlation between countries happiness scores and healthy life expectancy is: 0.79 at 0.0061 significance
+print('The Spearmans rho correlation between countries happiness scores and 
+healthy life expectancy is: ' + str(Spearman[0].round(2)) + ' at ' + str(Spearman[1].round(4)) +' significance')
+>>> The Spearmans rho correlation between countries happiness scores 
+and healthy life expectancy is: 0.79 at 0.0061 significance
 
 ```
 The following code helps visually represent the relationship between healthy life expectancy and happiness score in all 156 countries in the dataset with a scatter plot:
