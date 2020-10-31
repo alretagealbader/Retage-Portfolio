@@ -117,3 +117,4 @@ plt.ylabel('Happiness Score')
 plt.xlabel('Healthy Life Expectancy')
 plt.show()
 ```
+<img width="600" alt="scatter" src="https://user-images.githubusercontent.com/73716282/97791505-e16b5080-1bb1-11eb-8d31-6c706ac67085.png">
