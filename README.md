@@ -38,7 +38,7 @@ plt.show()
 ```
 <img width="721" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
 
-## Skill 5 - Comparing Reaction Times in Flankers
+## Skill 3 - Comparing Reaction Times in Flankers
 The following codes for a strip plot that visually represents the clustering of reaction times (ms) in different flanker conditions:
 
 ```python
