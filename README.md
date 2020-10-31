@@ -59,7 +59,7 @@ plt.show()
 ## Skill #4 - Data Visualization - Barplot 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
 
-I joined and presented happiness scores from the happiest and saddest countries into the following barpolot.
+I joined and presented happiness scores from the 5 happiest and saddest countries into the following barpolot.
 
 Here, I join the happy and sad countries together:
 
@@ -67,16 +67,14 @@ Here, I join the happy and sad countries together:
 # Reading in the data
 df = pd.read_csv('happy2019.csv')
 # Subselecting the happiest and saddest countries
-happy = df.head(5)
-sad = df.tail(5)
-all = happy.append(sad, ignore_index = True)
+data = (df.head(5)).append((df.tail(5)), ignore_index = True)
 ```
 
 Here, I made a few modifications to the barplot so countries' names are clearly legible. 
 
 ```python
 # Barplot
-barplot = sns.catplot(kind='bar', data= all, y='Score', x = 'Country or region')
+barplot = sns.catplot(kind='bar', data= data, y='Score', x = 'Country or region')
 # Modifying X-Labels to avoid overlapping country names
 plt.xticks(
     rotation=45, 
