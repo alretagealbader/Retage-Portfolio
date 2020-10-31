@@ -16,9 +16,15 @@ files = glob('spid*/*_data.txt')
 
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
 
-## Skill #2 - Data Visualization for Neural Data 
+## Skill #2 - Data Visualization - Boxplot 
 [](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
 
 Here is an example of code I wrote to [represent reaction time data for a Flanker Test](boxplots code.md)
 
 <img src = "https://user-images.githubusercontent.com/73716282/97788149-79a70c80-1b95-11eb-93e7-eda51fdff741.png" width = 700>
+
+## Skill #3 - Data Visualization - Barplot 
+In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
+
+I joined and presented happiness scores from the happiest and saddest countries into the following barpolot:
+
