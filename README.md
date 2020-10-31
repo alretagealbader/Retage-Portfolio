@@ -38,8 +38,8 @@ plt.ylabel('Log RT')
 plt.show() 
 ```
 
+<img width="721" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
 
-<img src = "https://user-images.githubusercontent.com/73716282/97788149-79a70c80-1b95-11eb-93e7-eda51fdff741.png" width = 700>
 
 ## Skill #3 - Data Visualization - Barplot 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
