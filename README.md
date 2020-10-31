@@ -23,7 +23,6 @@ Here is an example of code I wrote to [represent reaction time data for a Flanke
 
 ### The following details some code for data visualization techniques with neural data. 
 
-
 ```python
 # reaction times in flanker conditions
 flanker_conditions_rt = df.groupby(['flankers'])[['rt']]
@@ -37,14 +36,12 @@ plt.xlabel('Flanker Conditions')
 plt.ylabel('Log RT')
 plt.show() 
 ```
-
 <img width="721" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
-
 
 ## Skill #3 - Data Visualization - Barplot 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
 
-I joined and presented happiness scores from the happiest and saddest countries into the following barpolot:
+I joined and presented happiness scores from the happiest and saddest countries into the following barpolot.
 
 [](Barplot.md)
 ```python
@@ -52,7 +49,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-
+Here, I join the happy and sad countries together:
 
 ```python
 # Reading in the data
@@ -63,6 +60,7 @@ sad = df.tail(5)
 all = happy.append(sad, ignore_index = True)
 ```
 
+Here, I made a few modifications to the barplot so countries' names are clearly legible. 
 
 ```python
 # Barplot
@@ -77,8 +75,6 @@ plt.xticks(
 plt.title('Happiness Score')
 plt.show()
 ```
-
-
 
 <img width="549" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
