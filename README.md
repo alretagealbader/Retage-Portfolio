@@ -10,11 +10,11 @@ Questions? Email me at:
 
 ## Skill #1 - Reading in data Files: 
 A loop to read data files
-Read in data:
 
+```python
 files = glob('spid*/*_data.txt')
-
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
+```
 
 ## Skill #2 - Data Visualization - Boxplot 
 [](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
