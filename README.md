@@ -17,3 +17,4 @@ Read in data:
 files = glob('spid*/*_data.txt')
 
 dataframes = [pd.read_csv(x, sep='\t') for x in files]
+
