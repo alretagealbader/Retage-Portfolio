@@ -30,11 +30,12 @@ plt.xticks(
 plt.show()
 ```
 
-
-
-
-    
 <img width="500" lenght="500" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
-    
 
+
+[Go to Skill #3](https://alretagealbader.github.io/RetagePortfolio/stripplot.html)
+
+[Go to Skill #5](https://alretagealbader.github.io/RetagePortfolio/scatter.html)
+
+[Go to Main Page](https://alretagealbader.github.io/RetagePortfolio/)
 
