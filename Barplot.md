@@ -1,3 +1,5 @@
+## Skill #4 - Data Visualization - Barplot 
+
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
 
 I joined and presented happiness scores from the 5 happiest and saddest countries into the following barpolot.
