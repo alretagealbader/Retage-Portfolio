@@ -1,3 +1,5 @@
+The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
+
 ```python
 # Making a Strip Plot for Conditions in a Flanker Task using Seaborn
 sns.stripplot(x=df['flankers'], y=df['rt'], data= df, size=3, jitter=True)
