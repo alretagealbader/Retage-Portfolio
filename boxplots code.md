@@ -1,4 +1,4 @@
-#### The following is some code that generates a boxplot for data visualization with neural data from a Flanker Task.
+#### The following is some code that generates a boxplot to visualize neural data from a Flanker Task.
 
 ```python
 # reaction times in flanker conditions
