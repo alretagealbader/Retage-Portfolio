@@ -11,14 +11,14 @@ data = happy.append(sad, ignore_index = True)
 
 ```python
 #  Making a Bar Plot using Seaborn
-barplot = sns.catplot(kind='bar', data= data, y='Score', x = 'Country or region')
+barplot = sns.catplot(kind = 'bar', data = data, y = 'Score', x = 'Country or region')
 
 # Modifying the X-Labels to avoid overlapping country names
 plt.xticks(
-    rotation=45, 
-    horizontalalignment='right',
-    fontweight='light',
-    fontsize='small'  
+    rotation = 45, 
+    horizontalalignment = 'right',
+    fontweight = 'light',
+    fontsize = 'small'  
 )
 plt.show()
 ```
