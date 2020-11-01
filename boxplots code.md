@@ -1,4 +1,6 @@
-#### The following is some code that generates a boxplot to visualize neural data from a Flanker Task.
+## Skill #2 - Data Visualization - Boxplot (neural data)
+
+The following is some code that generates a boxplot to visualize neural data from a Flanker Task.
 
 ```python
 # reaction times in flanker conditions
