@@ -9,3 +9,7 @@ dataframes = [pd.read_csv(x, sep='\t') for x in files]
 ```
 
 (Developed with Jillian Fennell)
+
+[Go to Skill #2](https://alretagealbader.github.io/RetagePortfolio/boxplots%20code.html)
+
+[Go to Main Page](https://alretagealbader.github.io/RetagePortfolio/)
