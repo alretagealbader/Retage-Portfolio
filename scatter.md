@@ -116,6 +116,3 @@ plt.show()
 
 
 
-    
-![png](azl_files/azl_4_0.html)
-    
