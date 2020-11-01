@@ -1,5 +1,3 @@
-# Retage's Portfolio
-
 
 ### Hello and welcome to my portfolio!
 I'm Retage - a 4th year Medical Sciences student at Dalhousie University. 
