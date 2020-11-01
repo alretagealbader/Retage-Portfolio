@@ -21,3 +21,4 @@ plt.show()
 [Go to Skill #1](https://alretagealbader.github.io/RetagePortfolio/ReadingData.html)
 
 [Go to Skill #3](https://alretagealbader.github.io/RetagePortfolio/stripplot.html)
+ 
