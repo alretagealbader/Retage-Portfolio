@@ -14,3 +14,5 @@ plt.xlabel('Flanker Conditions')
 plt.ylabel('Log RT')
 plt.show() 
 ```
+
+<img width="550" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
