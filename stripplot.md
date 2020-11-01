@@ -1,3 +1,5 @@
+## Skill #3 - Data Visualization - Strip Plot (neural data)
+
 The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
 
 ```python
