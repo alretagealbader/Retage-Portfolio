@@ -112,4 +112,5 @@ plt.show()
 <img width="756" alt="scatterplot" src="https://user-images.githubusercontent.com/73716282/97793522-e9d08500-1bcb-11eb-90f2-d3cca18ef11b.png">
 
 
-
+[Return to previous skill #4](https://alretagealbader.github.io/RetagePortfolio/Barplot.html)
+[Return to Main Page](https://alretagealbader.github.io/RetagePortfolio/)
