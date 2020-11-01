@@ -9,14 +9,14 @@ Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
 
 # Skills:
-1. Reading in Data Files:
+1. [Reading in Data Files](ReadingData.md)
 2. Data Visualization - Boxplot (neural data)
 3. Data Visualization - Strip Plot (neural data)
 4. Data Visualization - Barplot 
 5. Statistical Analysis (Correlations)
 
-## Skill #1 - Reading in Data Files: 
-A loop to read data files:
+## Skill #1 - Reading in Data Files:
+[A loop to read data files:](ReadingData.md)
 
 ```python
 files = glob('subject*/*_data.txt')
