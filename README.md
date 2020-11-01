@@ -11,14 +11,14 @@ Questions? Email me at:
 # Skills:
 1. [Reading in Data Files](ReadingData.md)
 2. [Data Visualization - Boxplot (neural data](boxplots code.md)
-3. [Data Visualization - Strip Plot (neural data)](StripPlot.md)
+3. [Data Visualization - Strip Plot (neural data)](StripPlot.html)
 4. Data Visualization - Barplot 
 5. Statistical Analysis (Correlations)
 
 
 ## Skill 3 - Data Visualization - Strip Plot
 The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
-[link](StripPlot.md)
+[link](StripPlot.html)
 ```python
 sns.stripplot(x=df['flankers'], y=df['rt'], data= df, size=3, jitter=True)
 plt.title('Reaction Times in Flankers Conditions')
