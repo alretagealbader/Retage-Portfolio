@@ -10,7 +10,7 @@ flanker_conditions_rt = df.groupby(['flankers'])[['rt']]
 logrt_flanker.plot(kind='box')
 
 # modifying the boxplot 
-plt.title('Reaction Times in Flanker-Congruent and Flanker-Incongruent Conditions ')
+plt.title('Reaction Times in Flanker-Congruent and Flanker-Incongruent Conditions')
 plt.xlabel('Flanker Conditions')
 plt.ylabel('Log RT')
 plt.show() 
