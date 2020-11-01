@@ -13,7 +13,7 @@ Questions? Email me at:
 2. [Data Visualization - Boxplot (neural data)](boxplots code.md)
 3. [Data Visualization - Strip Plot (neural data)](stripplot.md)
 4. [Data Visualization - Barplot](Barplot.md)
-5. Statistical Analysis (Correlations)
+5. [Statistical Analysis (Correlations)](scatter.md)
 
 
 ## Skill #4 - Data Visualization - Barplot 
@@ -48,34 +48,4 @@ plt.show()
 <img width="400" lenght="400" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
 ## Skill #5 - Statistical Analysis (Correlations):
-The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Healthy Life Expectancy and Happiness scores:
 
-
-
-The data used here is from a study looking at [MRI and Alzheimers, obtained by Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
-
-```python
-x = all['Healthy life expectancy']
-y = all['Score']
-
-Pearson = scipy.stats.pearsonr(x, y)    # Pearson's r
-Spearman = scipy.stats.spearmanr(x, y)   # Spearman's rho
-Kendall = scipy.stats.kendalltau(x, y)  # Kendall's tau
-
-# For example:
-print('The Spearmans rho correlation between countries happiness scores and 
-healthy life expectancy is: ' + str(Spearman[0].round(2)) + ' at ' + str(Spearman[1].round(4)) +' significance')
->>> The Spearmans rho correlation between countries happiness scores 
-and healthy life expectancy is: 0.79 at 0.0061 significance
-
-```
-The following code helps visually represent the relationship between healthy life expectancy and happiness score in all 156 countries in the dataset with a scatter plot:
-
-```python
-scatter = matplotlib.pyplot.scatter(df['Healthy life expectancy'], df['Score'])
-plt.title('Healthy Life Expectancy and Happiness Score')
-plt.ylabel('Happiness Score')
-plt.xlabel('Healthy Life Expectancy')
-plt.show()
-```
-<img width="500" alt="scatter" src="https://user-images.githubusercontent.com/73716282/97791505-e16b5080-1bb1-11eb-8d31-6c706ac67085.png">
