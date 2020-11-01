@@ -11,17 +11,10 @@ Questions? Email me at:
 # Skills:
 1. [Reading in Data Files](ReadingData.md)
 2. [Data Visualization - Boxplot (neural data](boxplots code.md)
-3. Data Visualization - Strip Plot (neural data)
+3. [Data Visualization - Strip Plot (neural data)](StripPlot.md)
 4. Data Visualization - Barplot 
 5. Statistical Analysis (Correlations)
 
-## Skill #1 - Reading in Data Files:
-[A loop to read data files](ReadingData.md)
-
-## Skill #2 - Data Visualization - Boxplot 
-[](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
-
-Here is an example of code I wrote to [represent reaction time data for a Flanker Test](boxplots code.md) using a boxplot.
 
 ## Skill 3 - Data Visualization - Strip Plot
 The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
