@@ -10,7 +10,7 @@ Questions? Email me at:
 
 # Skills:
 1. [Reading in Data Files](ReadingData.md)
-2. Data Visualization - Boxplot (neural data)
+2. [Data Visualization - Boxplot (neural data](boxplots code.md)
 3. Data Visualization - Strip Plot (neural data)
 4. Data Visualization - Barplot 
 5. Statistical Analysis (Correlations)
@@ -27,22 +27,6 @@ dataframes = [pd.read_csv(x, sep='\t') for x in files]
 [](https://github.com/alretagealbader/RetagePortfolio/issues/3#issue-733791402)
 
 Here is an example of code I wrote to [represent reaction time data for a Flanker Test](boxplots code.md)
-
-```python
-# reaction times in flanker conditions
-flanker_conditions_rt = df.groupby(['flankers'])[['rt']]
-
-# creating a boxplot for analysis 
-logrt_flanker.plot(kind='box')
-
-# modifying the boxplot 
-plt.title('Reaction Times in Flanker-Congruent and 
-Flanker-Incongruent Conditions ')
-plt.xlabel('Flanker Conditions')
-plt.ylabel('Log RT')
-plt.show() 
-```
-<img width="550" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
 
 ## Skill 3 - Data Visualization - Strip Plot
 The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
