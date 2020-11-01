@@ -11,14 +11,14 @@ Questions? Email me at:
 # Skills:
 1. [Reading in Data Files](ReadingData.md)
 2. [Data Visualization - Boxplot (neural data](boxplots code.md)
-3. [Data Visualization - Strip Plot (neural data)](StripPlot.html)
+3. [Data Visualization - Strip Plot (neural data)](https://github.com/alretagealbader/RetagePortfolio/blob/main/StripPlot)
 4. Data Visualization - Barplot 
 5. Statistical Analysis (Correlations)
 
 
 ## Skill 3 - Data Visualization - Strip Plot
 The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
-[link](StripPlot.html)
+[link](StripPlot.md)
 ```python
 sns.stripplot(x=df['flankers'], y=df['rt'], data= df, size=3, jitter=True)
 plt.title('Reaction Times in Flankers Conditions')
@@ -61,6 +61,11 @@ plt.show()
 
 ## Skill #5 - Statistical Analysis (Correlations):
 The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Healthy Life Expectancy and Happiness scores:
+
+
+
+The data used here is from a study looking at [MRI and Alzheimers, obtained by Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
+
 ```python
 x = all['Healthy life expectancy']
 y = all['Score']
