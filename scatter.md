@@ -1,8 +1,8 @@
 ## Skill #5 - Statistical Analysis (Correlations)
 
-The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Healthy Life Expectancy and Happiness scores:
+The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Estimated Total Intracranial Volume and Normalized Whole Brain Volume.
 
-The data used here is from a study looking at [MRI and Alzheimers, obtained by Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
+The data used here is from the MRI in Alzheimers dataset, obtained by [Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
 
 ```python
 # Reading in the data
