@@ -101,6 +101,8 @@ Here, I use Seaborn to create a scatter plot to visually represent the relations
 ```python
 # Creating a Scatter Plot
 scatter = matplotlib.pyplot.scatter(x, y)
+
+# Modifying the Scatter Plot
 plt.title('Brain Volume in Alzheimers Patients')
 plt.ylabel('Normalized Whole Brain Volume')
 plt.xlabel('Estimated Total Intracranial Volume')
