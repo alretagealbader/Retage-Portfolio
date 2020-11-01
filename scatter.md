@@ -4,14 +4,7 @@ The following code yields the Pearson's r, Spearman's rho, and Kendall's tau cor
 
 The data used here is from the MRI in Alzheimers dataset, obtained by [Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
 
-```python
-# Reading in the data
-df = pd.read_csv('oacs.csv')
-df.head(2)
-```
-
-
-
+This is a display of the first few rows from the dataset:
 
 <div>
 <style scoped>
@@ -81,7 +74,7 @@ df.head(2)
 </div>
 
 
-
+Here is the code for the correlations:
 
 ```python
 x = df['eTIV'] # Estimated Total Intracranial Volume
