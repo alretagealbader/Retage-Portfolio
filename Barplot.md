@@ -1,3 +1,8 @@
+In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
+
+I joined and presented happiness scores from the 5 happiest and saddest countries into the following barpolot.
+
+Here, I join the happy and sad countries together:
 
 ```python
 # Reading in the data
@@ -7,7 +12,7 @@ happy = df.head(5)
 sad = df.tail(5)
 data = happy.append(sad, ignore_index = True)
 ```
-
+Here, I made a few modifications to the barplot so the countries' names are clearly legible. 
 
 ```python
 #  Making a Bar Plot using Seaborn
