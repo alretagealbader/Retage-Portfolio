@@ -10,9 +10,9 @@ Questions? Email me at:
 
 # Skills:
 1. [Reading in Data Files](ReadingData.md)
-2. [Data Visualization - Boxplot (neural data](boxplots code.md)
+2. [Data Visualization - Boxplot (neural data)](boxplots code.md)
 3. [Data Visualization - Strip Plot (neural data)](stripplot.md)
-4. Data Visualization - Barplot 
+4. [Data Visualization - Barplot](Barplot.md)
 5. Statistical Analysis (Correlations)
 
 
