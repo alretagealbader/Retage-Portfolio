@@ -2,7 +2,7 @@
 
 ### The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Estimated Total Intracranial Volume and Normalized Whole Brain Volume.
 
-The data used here is from the MRI in Alzheimers dataset, obtained by [Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
+The data used here is from the MRI in Alzheimers dataset, obtained from [Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
 
 This is a display of the first few rows from the dataset:
 
