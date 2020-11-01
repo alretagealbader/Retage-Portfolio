@@ -11,22 +11,10 @@ Questions? Email me at:
 # Skills:
 1. [Reading in Data Files](ReadingData.md)
 2. [Data Visualization - Boxplot (neural data](boxplots code.md)
-3. [Data Visualization - Strip Plot (neural data)](https://github.com/alretagealbader/RetagePortfolio/blob/main/StripPlot)
+3. [Data Visualization - Strip Plot (neural data)](stripplot.md)
 4. Data Visualization - Barplot 
 5. Statistical Analysis (Correlations)
 
-
-## Skill 3 - Data Visualization - Strip Plot
-The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
-[link](StripPlot.md)
-```python
-sns.stripplot(x=df['flankers'], y=df['rt'], data= df, size=3, jitter=True)
-plt.title('Reaction Times in Flankers Conditions')
-plt.ylabel('Reaction Times')
-plt.xlabel('Flanker Conditions')
-plt.show()
-```
-<img width="500" alt="Striplots" src="https://user-images.githubusercontent.com/73716282/97791468-833e6d80-1bb1-11eb-9736-d691bb290d85.png">
 
 ## Skill #4 - Data Visualization - Barplot 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
