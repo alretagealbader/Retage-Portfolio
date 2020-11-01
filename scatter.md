@@ -91,7 +91,8 @@ Normalized Whole Brain Volume is: ' + str(Spearman[0].round(2)) +
 
 ```
 
-    The Spearmans rho correlation between Estimated Total Intracranial Volume and Normalized Whole Brain Volume is: 0.03 at 0.49 significance
+    The Spearmans rho correlation between Estimated Total Intracranial Volume and
+    Normalized Whole Brain Volume is: 0.03 at 0.49 significance
 
 
 Here, I use Seaborn to create a scatter plot to visually represent the relationship between Estimated Total Intracranial Volume and Normalized Whole Brain Volume
