@@ -8,3 +8,5 @@ plt.ylabel('Reaction Times')
 plt.xlabel('Flanker Conditions')
 plt.show()
 ```
+
+<img width="500" alt="Striplots" src="https://user-images.githubusercontent.com/73716282/97791468-833e6d80-1bb1-11eb-9736-d691bb290d85.png">
