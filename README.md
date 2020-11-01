@@ -18,7 +18,7 @@ Questions? Email me at:
 
 ## Skill 3 - Data Visualization - Strip Plot
 The following codes for a strip plot that visually compares the clustering of reaction times (ms) in different flanker conditions:
-
+[link](StripPlot.md)
 ```python
 sns.stripplot(x=df['flankers'], y=df['rt'], data= df, size=3, jitter=True)
 plt.title('Reaction Times in Flankers Conditions')
