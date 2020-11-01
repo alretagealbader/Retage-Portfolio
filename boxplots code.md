@@ -17,3 +17,7 @@ plt.show()
 ```
 
 <img width="550" alt="barplot" src="https://user-images.githubusercontent.com/73716282/97790149-f68db280-1ba4-11eb-9eec-cb336c5f4497.png">
+
+[Go to Skill #1](https://alretagealbader.github.io/RetagePortfolio/ReadingData.html)
+
+[Go to Main Page](https://alretagealbader.github.io/RetagePortfolio/ReadingData.html)
