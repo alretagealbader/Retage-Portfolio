@@ -85,8 +85,8 @@ Spearman = scipy.stats.spearmanr(x, y)   # Spearman's rho
 Kendall = scipy.stats.kendalltau(x, y)  # Kendall's tau
 
 # For example:
-print('The Spearmans rho correlation between Estimated Total Intracranial Volume and 
-Normalized Whole Brain Volume is: ' + str(Spearman[0].round(2)) + 
+print('The Spearmans rho correlation between Estimated Total Intracranial 
+Volume and Normalized Whole Brain Volume is: ' + str(Spearman[0].round(2)) + 
 ' at ' + str(Spearman[1].round(2)) +' significance')
 
 ```
