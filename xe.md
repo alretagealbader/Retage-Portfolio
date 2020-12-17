@@ -11,3 +11,4 @@ The following lists 8 courses that I have completed through [DataCamp.com](https
 7. Statistical Thinking in Python 2
 8. Biomedical Image Analysis in Python
 
+[Go to main page](https://alretagealbader.github.io/RetagePortfolio/)
