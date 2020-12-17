@@ -13,7 +13,7 @@
 4. [Data Visualization - Barplot](Barplot.md)
 5. [Statistical Analysis (Correlations)](scatter.md)
 
-## [Certificates]
+## [Certificates](certificates)
 
 Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
