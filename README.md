@@ -13,6 +13,7 @@
 4. [Data Visualization - Barplot](Barplot.md)
 5. [Statistical Analysis (Correlations)](scatter.md)
 
+[html](trialfnl.htm)
 
 [triaal](map.md)
 ## [Certificatess](xe.md)
