@@ -2,9 +2,9 @@
 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
 
-I joined and presented happiness scores from the 5 happiest and saddest countries into the following barpolot.
+The dataset contains presorted from happiest to unhappiest countries and presents information on different variables (i.e. social support, healthy life expectancy, etc). 
 
-Here, I join the happy and sad countries together:
+I manipulated the dataset and joined the 5 happiest (5 top) and saddest countries (5 bottom) into the following barpolot for data visualization.
 
 ```python
 # Reading in the data
@@ -14,7 +14,7 @@ happy = df.head(5)
 sad = df.tail(5)
 data = happy.append(sad, ignore_index = True)
 ```
-Here, I made a few modifications to the barplot so the countries' names are clearly legible. 
+Here, I made a few modifications to the barplot so the countries' names are clearly legible. I gained proffeciency with the Seaborn package to present the following barplot. 
 
 ```python
 #  Making a Bar Plot using Seaborn
@@ -30,9 +30,10 @@ plt.xticks(
 plt.show()
 ```
 
-<img width="500" lenght="500" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
+<img width="400" lenght="400" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
 
- Through learning to work with Seaborn, I am able to visually observe the correlations between the variables in the dataset using a correlation matrix. For example, I can see that there is a high positive correlation between 
+ Through learning to work with Seaborn, I am also able to visually assess the correlations between the variables in the dataset using a correlation matrix. For example, I can see that there is a high positive correlation between social support and total happiness scores! 
+ 
 ```python
 sns.heatmap(df.corr())
 plt.show()
