@@ -2,7 +2,7 @@
 The following lists 8 courses that I have completed through [DataCamp.com](https://learn.datacamp.com/), an online learning platform. Below, you can also find certificates that indicate proof of completion. Collectively, these courses comprise 32 hours of learning! 
 
 1. [Introduction to Python](intropython.pdf)
-2. Intermediate Python
+2. [Intermediate Python](intermedpython.pdf)
 3. Pandas Foundations
 3. Introduction to Data Visualization in Python
 4. Manipulating DataFrames with Pandas 
