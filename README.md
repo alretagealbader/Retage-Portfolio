@@ -14,7 +14,7 @@
 5. [Statistical Analysis (Correlations)](scatter.md)
 
 
-[trial](trialfnl.htm)
+[triaal](map.md)
 ## [Certificatess](xe.md)
 
 Questions? Email me at:
