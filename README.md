@@ -10,7 +10,7 @@
 1. [Reading in Data Files](ReadingData.md)
 2. [Data Visualization - Boxplot (neural data)](boxplots code.md)
 3. [Data Visualization - Strip Plot (neural data)](stripplot.md)
-4. [Data Visualization - Barplot](Barplot.md)
+4. [Data Visualization - Barplots, Correlation Matrix, and t-Tests](Barplot.md)
 5. [Statistical Analysis (Correlations)](scatter.md)
 6. [Working with Single Unit Neural Data]
 
