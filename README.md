@@ -19,7 +19,7 @@
 
 [md tridaal](map.md)
 
-## [Certificates]
+## Certificates
 This [link](certificatespage.md) takes you to a page with certifications that detail my progress and learnining through DataCamp's online coding courses! 
 
 Questions? Email me at:
