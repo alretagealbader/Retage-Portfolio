@@ -20,6 +20,8 @@
 [html](trialfnl.htm)
 
 [maaps](https://nbviewer.jupyter.org/github/alretagealbader/RetagePortfolio/fnlport.ipynb)
+
+
 https://nbviewer.jupyter.org/github/DalPsychNeuro/NESC_3505_textbook/blob/master/single_unit/corr_spike_trains.ipynb
 
 [md tridaal](map.md)
