@@ -47,7 +47,9 @@ plt.show()
 from scipy.stats import ttest_rel
 t_test = ttest_rel(happy['Healthy life expectancy'], sad['Healthy life expectancy'] )
 
-print('The t-test comparing healthy life expectancy in the happiest and unhappiest countries reveals that the t-value is ' + str(round(t_test[0],2)) + ' and the p-value is ' + str(round(t_test[1],3)))
+print('The t-test comparing healthy life expectancy in the happiest and unhappiest countries 
+reveals that the t-value is ' + str(round(t_test[0],2)) + ' and the p-value is ' 
++ str(round(t_test[1],3)))
  ```
  ```python
  The t-test comparing healthy life expectancy in the happiest and 
