@@ -37,9 +37,9 @@ plt.show()
 sns.heatmap(df.corr())
 plt.show()
 ```
-<img width = "500" lenght="500" src = "cormatrix.png">
+<img width = "500" lenght="500" src = "corrmatrix.png">
 
-
+ 
 [Go to Skill #3](https://alretagealbader.github.io/RetagePortfolio/stripplot.html)
 
 [Go to Skill #5](https://alretagealbader.github.io/RetagePortfolio/scatter.html)
