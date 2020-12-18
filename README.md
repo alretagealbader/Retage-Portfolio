@@ -16,8 +16,9 @@
 [ipy](fnlport.ipynb)
 [html](trialfnl.htm)
 
-[triaal](map.md)
-## [Certificatess](xe.md)
+[md triaal](map.md)
+
+## [Certificates](xe.md)
 
 Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
