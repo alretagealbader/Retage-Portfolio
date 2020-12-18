@@ -35,7 +35,7 @@ for neuron in neuron_labels: #neuron_labels is a list of neuron names
 
 plt.show()
 ```
-
+< width = '300' src = 'spikepicture.png' >
 
 [Go to main page](https://alretagealbader.github.io/RetagePortfolio/)
 
