@@ -19,7 +19,7 @@
 [ipy](fnlport.ipynb)
 [html](trialfnl.htm)
 
-[map](https://nbviewer.jupyter.org/github/RetagePortfolio/fnlport.ipynb)
+[maap](https://nbviewer.jupyter.org/github/alretagealbader/RetagePortfolio/fnlport.ipynb)
 
 [md tridaal](map.md)
 
