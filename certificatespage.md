@@ -3,12 +3,12 @@ The following lists 8 courses that I have completed through [DataCamp.com](https
 
 1. [Introduction to Python](intropython.pdf)
 2. [Intermediate Python](intermedpython.pdf)
-3. Pandas Foundations
-3. Introduction to Data Visualization in Python
-4. Manipulating DataFrames with Pandas 
-5. Merging DataFrames with Pandas
-6. Statistical Thinking in Python 1
-7. Statistical Thinking in Python 2
-8. Biomedical Image Analysis in Python
+3. [Pandas Foundations](pandasfound.pdf)
+4. [Introduction to Data Visualization in Python](dataviz.pdf)
+5. [Manipulating DataFrames with Pandas](manipdf.pdf)
+6. [Merging DataFrames with Pandas](mergdf.pdf)
+7. [Statistical Thinking in Python 1](stat1.pdf)
+8. [Statistical Thinking in Python 2](stat2.pdf)
+9. [Biomedical Image Analysis in Python](biomed.pdf)
 
 [Go to main page](https://alretagealbader.github.io/RetagePortfolio/)
