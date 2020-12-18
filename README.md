@@ -12,7 +12,9 @@
 3. [Data Visualization - Strip Plot (neural data)](stripplot.md)
 4. [Data Visualization - Barplots, Correlation Matrix, and t-Tests](Barplot.md)
 5. [Statistical Analysis (Correlations)](scatter.md)
-6. [Working with Single Unit Neural Data]
+6. [Working with Single Unit Neural Data] - asgn 4
+7. Working with Biomedical Image Analysis - asgn 5
+8. Visualizing Data with a Global Map
 
 [ipy](fnlport.ipynb)
 [html](trialfnl.htm)
