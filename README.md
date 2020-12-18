@@ -12,6 +12,7 @@
 3. [Data Visualization - Strip Plot (neural data)](stripplot.md)
 4. [Data Visualization - Barplot](Barplot.md)
 5. [Statistical Analysis (Correlations)](scatter.md)
+6. [Working with Single Unit Neural Data]
 
 [ipy](fnlport.ipynb)
 [html](trialfnl.htm)
