@@ -17,7 +17,7 @@
 [ipy](fnlport.ipynb)
 [html](trialfnl.htm)
 
-[md triaal](map.md)
+[md tridaal](map.md)
 
 ## [Certificates](xe.md)
 
