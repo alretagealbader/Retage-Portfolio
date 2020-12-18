@@ -15,7 +15,7 @@ sad = df.tail(5)
 data = happy.append(sad, ignore_index = True)
 ```
 
-### Using Seaborn for a boxplot
+### Using Seaborn for a barplot
 Here, I made a few modifications to the barplot so the countries' names are clearly legible. I gained proffeciency with the Seaborn package to present the following barplot. 
 ```python
 #  Making a Bar Plot using Seaborn
