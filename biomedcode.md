@@ -16,7 +16,8 @@ for ii in range(0, 160, 10):
     subplot_counter += 1
 plt.show()
 ```
-< img width = "400" src = "transverse.png">
+<img width = "500" lenght="500" src = "transverse.png">
+
 
 ```python 
 fig = plt.figure(figsize = [8, 12])
@@ -30,7 +31,7 @@ for ii in range(0, 160, 10):
     subplot_counter += 1
 plt.show()
 ```
-< img width = "400" src = "saggital.png">
+<img width = "500" lenght="500" src = "saggital.png">
 
 Additionally, in this example, I was trying to locate areas within the brain that respond to certain visual stimuli more strongly. By statistical thresholding (applying a threshold of p < .0001), this code allows me to identify these prominent areas within the brain, indicated by the red color.
 
@@ -52,7 +53,7 @@ for ii in range(0, 27, 3):
 plt.show()
 
 ```
-< img width = "400" src = "maskfmri.png">
+<img width = "500" lenght="500" src = "maskfmri.png">
 
 [Go to Skill #6](spikingheatmaps.md)
 
