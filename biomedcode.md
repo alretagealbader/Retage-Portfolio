@@ -57,7 +57,7 @@ plt.show()
 
 [Go to Skill #6](spikingheatmaps.md)
 
-[Go to Skill #8]
+[Go to Skill #8](https://alretagealbader.github.io/RetagePortfolio/interactivemaps.htm)
 
 [Go to Main Page](https://alretagealbader.github.io/RetagePortfolio/)
 
