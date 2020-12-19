@@ -1,6 +1,6 @@
 ## Skill #7 - Working with Biomedical Image Analysis
 
-The following code allows me to view multiple slices of brain images from functional magnetic resonance imaging (fMRI). Given that there were a total of 160 slices of images, I used a loop to show every 10th slice in a 4 x 4 array. 
+The following code allows me to view multiple slices of brain images from functional magnetic resonance imaging (fMRI), obtained by Dr. Aaron Newman. Given that there were a total of 160 slices of images, I used a loop to show every 10th slice in a 4 x 4 array. 
 
 I also show the images from different angles: top transverse plane and a saggital plane, respectively
 
