@@ -1,6 +1,6 @@
 ## Skill #5 - Statistical Analysis (Correlations)
 
-### The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Estimated Total Intracranial Volume and Normalized Whole Brain Volume.
+The following code yields the Pearson's r, Spearman's rho, and Kendall's tau correlations between Estimated Total Intracranial Volume and Normalized Whole Brain Volume.
 
 The data used here is from the MRI in Alzheimers dataset, obtained from [Kaggle.com](https://www.kaggle.com/jboysen/mri-and-alzheimers?select=oasis_cross-sectional.csv)
 
@@ -118,4 +118,6 @@ plt.show()
 
 [Go to skill #4](https://alretagealbader.github.io/RetagePortfolio/Barplot.html)
   
+[Go to skill #6](https://alretagealbader.github.io/RetagePortfolio/spikingheatmaps.html)
+
 [Go to Main Page](https://alretagealbader.github.io/RetagePortfolio/)
