@@ -1,0 +1,39 @@
+```python
+fig = plt.figure(figsize = [8, 12])
+subplot_counter = 1
+# Looping through subplots and drawing image
+for ii in range(0, 160, 10):
+    fig.add_subplot(4, 4, subplot_counter)
+    plt.imshow(vol[ii], cmap = 'gray')
+    plt.axis('off')
+    plt.tight_layout()
+    subplot_counter += 1
+plt.show()
+```
+
+
+```python 
+fig = plt.figure(figsize = [8, 12])
+subplot_counter = 1
+# Looping through subplots and drawing image
+for ii in range(0, 160, 10):
+    fig.add_subplot(4, 4, subplot_counter)
+    plt.imshow((ndi.rotate(vol[:,ii,:], angle = 180)) , cmap = 'gray')
+    plt.axis('off')
+    plt.tight_layout()
+    subplot_counter += 1
+plt.show()
+```
+
+```python 
+fig = plt.figure(figsize = [8, 12])
+subplot_counter = 1
+# Looping through subplots and drawing image
+for ii in range(0, 160, 10):
+    fig.add_subplot(4, 4, subplot_counter)
+    plt.imshow((ndi.rotate(vol[:,:,ii], angle = 180)) , cmap = 'gray')
+    plt.axis('off')
+    plt.tight_layout()
+    subplot_counter += 1
+plt.show()
+```
