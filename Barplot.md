@@ -2,7 +2,7 @@
 
 In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
 
-The dataset contains presorted from happiest to unhappiest countries and presents information on different variables (i.e. social support, healthy life expectancy, etc). 
+The dataset is presorted from happiest to unhappiest countries and presents information on their different variables (i.e. social support, healthy life expectancy, etc). 
 
 ### Reading in the data
 I manipulated the dataset and joined the 5 happiest (5 top) and saddest countries (5 bottom) into the following barpolot for data visualization.
