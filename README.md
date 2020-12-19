@@ -16,18 +16,9 @@
 7. [Working with Biomedical Image Analysis] - asgn 5
 8. [Visualizing Data with a Global Map](------)
 
-[ipy](fnlport.ipynb)
-[html](trialfnl.htm)
-
-[maaps](https://nbviewer.jupyter.org/github/alretagealbader/RetagePortfolio/fnlport.ipynb)
-
-
-https://nbviewer.jupyter.org/github/DalPsychNeuro/NESC_3505_textbook/blob/master/single_unit/corr_spike_trains.ipynb
-
-[md tridaal](map.md)
 
 ## Certificates
-This [link](certificatespage.md) takes you to a page with certifications that detail my progress and learnining through DataCamp's online coding courses! 
+This [link](certificatespage.md) takes you to a page with certifications that detail my progress and learning through DataCamp's online coding courses! 
 
 Questions? Email me at:
 [al962601@dal.ca](mailto:al962601@dal.ca)
