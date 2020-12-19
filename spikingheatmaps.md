@@ -1,4 +1,6 @@
-## Working with single unit data
+
+
+## Skill #6 - Working with single unit data
 
 This loop yields heat maps that visually represent neural spiking in 3 different neurons from a list ['m1_6' 'm3_11' 'm6_3a2'] 
 in response to a visual input in varying conditions (CTL/ADAPT)
@@ -36,6 +38,11 @@ for neuron in neuron_labels: #neuron_labels is a list of neuron names
 plt.show()
 ```
 <img width="400" alt="spikes" src="spikepicture.png">
+
+
+[Go to Skill #5](https://alretagealbader.github.io/RetagePortfolio/scatter.html)
+
+[Go to Skill #7](https://alretagealbader.github.io/RetagePortfolio/biomedcode.html)
 
 [Go to main page](https://alretagealbader.github.io/RetagePortfolio/)
 
