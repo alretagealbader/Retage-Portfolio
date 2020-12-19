@@ -1,5 +1,5 @@
 
-The following lists 8 courses that I have completed through [DataCamp.com](https://learn.datacamp.com/), an online learning platform. Below, you can also find certificates that indicate proof of completion. Collectively, these courses comprise 32 hours of learning! 
+The following lists 8 courses that I have completed through [DataCamp.com](https://learn.datacamp.com/), an online learning platform. Below, you can also find certificates that indicate proof of completion. Collectively, these courses comprise 36 hours of learning! 
 
 1. [Introduction to Python](intropython.pdf)
 2. [Intermediate Python](intermedpython.pdf)
