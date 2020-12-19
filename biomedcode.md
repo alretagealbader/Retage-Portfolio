@@ -1,77 +1,8 @@
-## Skill #4 - Data Visualization - Barplot 
+## Skill #7 - Working with Biomedical Image Analysis
 
-In this example, I used data from the [World Happiness Report from Kaggle](https://www.kaggle.com/unsdsn/world-happiness)
+The following code allows me to view multiple slices of brain images from functional magnetic resonance imaging (fMRI). Given that there were a total of 160 slices of images, I used a loop to show every 10th slice in a 4 x 4 array. 
 
-The dataset contains presorted from happiest to unhappiest countries and presents information on different variables (i.e. social support, healthy life expectancy, etc). 
-
-### Reading in the data
-I manipulated the dataset and joined the 5 happiest (5 top) and saddest countries (5 bottom) into the following barpolot for data visualization.
-```python
-# Reading in the data
-df = pd.read_csv('happy2019.csv')
-# Subselecting the happiest and saddest countries
-happy = df.head(5)
-sad = df.tail(5)
-data = happy.append(sad, ignore_index = True)
-```
-
-### Using Seaborn for a barplot
-Here, I made a few modifications to the barplot so the countries' names are clearly legible. I gained proffeciency with the Seaborn package to present the following barplot. 
-```python
-#  Making a Bar Plot using Seaborn
-barplot = sns.catplot(kind = 'bar', data = data, y = 'Score', x = 'Country or region')
-
-# Modifying the X-Labels to avoid overlapping country names
-plt.xticks(
-    rotation = 45, 
-    horizontalalignment = 'right',
-    fontweight = 'light',
-    fontsize = 'small'  
-)
-plt.show()
-```
-<img width="400" lenght="400" alt="AllBarplots" src="https://user-images.githubusercontent.com/73716282/97790227-977c6d80-1ba5-11eb-96c5-90f26af2f618.png">
-
-### Seaborn's Correlation Matrix for statistical analysis 
- Through learning to work with Seaborn, I am also able to visually assess the correlations between the variables in the dataset using a correlation matrix. For example, I can see that there is a high positive correlation between social support and total happiness scores! 
-```python
-sns.heatmap(df.corr())
-plt.show()
-```
-<img width = "500" lenght="500" src = "corrmatrix.png">
-
-### More statistics using Scipy's t-test
- I can confirm the significant difference in healthy life expectancy using a t-test with the scipy package!
- 
-```python
-from scipy.stats import ttest_rel
-t_test = ttest_rel(happy['Healthy life expectancy'], sad['Healthy life expectancy'] )
-
-print('The t-test comparing healthy life expectancy in the happiest and unhappiest countries 
-reveals that the t-value is ' + str(round(t_test[0],2)) + ' and the p-value is ' 
-+ str(round(t_test[1],3)))
- ```
- ```python
- The t-test comparing healthy life expectancy in the happiest and 
- unhappiest countries reveals that the t-value is 6.74 and the p-value is 0.003!
-
- ```
-------
------
-
-```python
-#  Making a Bar Plot using Seaborn
-barplot = sns.catplot(kind = 'bar', data = data, y = 'Score', x = 'Country or region')
-
-# Modifying the X-Labels to avoid overlapping country names
-plt.xticks(
-    rotation = 45, 
-    horizontalalignment = 'right',
-    fontweight = 'light',
-    fontsize = 'small'  
-)
-plt.show()
-```
+I also show the images from different angles: top transverse plane and a saggital plane, respectively
 
 ```python
 fig = plt.figure(figsize = [8, 12])
@@ -80,20 +11,6 @@ subplot_counter = 1
 for ii in range(0, 160, 10):
     fig.add_subplot(4, 4, subplot_counter)
     plt.imshow(vol[ii], cmap = 'gray')
-    plt.axis('off')
-    plt.tight_layout()
-    subplot_counter += 1
-plt.show()
-```
-
-
-```python 
-fig = plt.figure(figsize = [8, 12])
-subplot_counter = 1
-# Looping through subplots and drawing image
-for ii in range(0, 160, 10):
-    fig.add_subplot(4, 4, subplot_counter)
-    plt.imshow((ndi.rotate(vol[:,ii,:], angle = 180)) , cmap = 'gray')
     plt.axis('off')
     plt.tight_layout()
     subplot_counter += 1
@@ -112,3 +29,31 @@ for ii in range(0, 160, 10):
     subplot_counter += 1
 plt.show()
 ```
+In this example, I was trying to locate areas within the brain that respond to certain visual stimuli more strongly. By statistical thresholding (applying a threshold of p < .0001), this code allows me to identify these prominent areas within the brain, indicated by the red color.
+
+A thresholded Z map is overlayed on the underlying grayscale brain image. 'thresh_zstat' is a mask, whereby voxels above a threshold in thresh_zstat would take the values of fmri_zstat_data (), and values below the threshold will be np.nan.
+
+```python 
+thresh_zstat = np.where(fmri_zstat_data > z_thresh, fmri_zstat_data, np.nan)
+fig = plt.figure(figsize = [6, 10])
+subplot_counter = 1
+# Loop through subplots and draw image
+for ii in range(0, 27, 3):
+    fig.add_subplot(3, 3, subplot_counter)
+    plt.imshow(underlay[ :, :, ii], cmap = 'gray')
+    plt.imshow(thresh_zstat[ :, :, ii], vmin = -8, vmax = 8, cmap = 'seismic')
+    plt.axis('off')
+    plt.tight_layout()
+    subplot_counter += 1
+# Render the figure
+plt.show()
+
+```
+
+
+[Go to Skill #6]
+
+[Go to Skill #8]
+
+[Go to Main Page](https://alretagealbader.github.io/RetagePortfolio/)
+
