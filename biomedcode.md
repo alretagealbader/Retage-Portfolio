@@ -35,7 +35,7 @@ plt.show()
 
 Additionally, in this example, I was trying to locate areas within the brain that respond to certain visual stimuli more strongly. By statistical thresholding (applying a threshold of p < .0001), this code allows me to identify these prominent areas within the brain, indicated by the red color.
 
-A thresholded Z map is overlayed on the underlying grayscale brain image. 'thresh_zstat' is a mask, whereby voxels above a threshold in thresh_zstat would take the values of fmri_zstat_data, and values below the threshold will be np.nan.
+A thresholded Z map is overlayed on the underlying grayscale brain image. 'thresh_zstat' is a mask, whereby voxels above a threshold in thresh_zstat would take the values of fmri_zstat_data, and values below the threshold will be np.nan!
 
 ```python 
 thresh_zstat = np.where(fmri_zstat_data > z_thresh, fmri_zstat_data, np.nan)
