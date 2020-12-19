@@ -14,7 +14,8 @@
 5. [Statistical Analysis (Correlations)](scatter.md)
 6. [Working with Single Unit Neural Data - Heat maps](spikingheatmaps.md)
 7. [Working with Biomedical Image Analysis](biomedcode.md)
-8. [Visualizing Data with a Global Map](------)
+8. [Visualizing Data with a Global Map](interactivemaps.htm)
+
 
 
 ## Certificates
